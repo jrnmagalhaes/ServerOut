@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128.4 114">
+  <defs>
+    <style>
+      .cls-1, .cls-5, .cls-9 {
+        fill: #5693ab;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-9 {
+        stroke: #3d729a;
+      }
+
+      .cls-1, .cls-2, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-6, .cls-8 {
+        fill: #d8eaf8;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        fill: #fff;
+        stroke: #3d739b;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <title>Flexibilidade</title>
+  <g id="Camada_2" data-name="Camada 2">
+    <g id="Camada_1-2" data-name="Camada 1">
+      <g id="GráficoRedondo">
+        <path class="cls-1" d="M75.7,48.2a9.1,9.1,0,0,1,1.2,3H87.5a19.5,19.5,0,0,0-4.3-10.5Z"/>
+        <path class="cls-2" d="M76.9,55.1a9.1,9.1,0,0,1-1.2,3l7.5,7.5a19.5,19.5,0,0,0,4.3-10.5Z"/>
+        <path class="cls-1" d="M72.9,60.9l-1.7.8V72.5a19.5,19.5,0,0,0,9.1-4.1Z"/>
+        <path class="cls-3" d="M74.5,42.2l-2.2-1.1V26.9a25.7,25.7,0,0,1,12.1,5.5Z"/>
+        <path class="cls-2" d="M68,44a9.2,9.2,0,1,0,0,18.3V72.8a19.6,19.6,0,0,1,0-39.2Z"/>
+      </g>
+      <path class="cls-4" d="M48.4,32.6A31.4,31.4,0,0,1,52,18,31.4,31.4,0,0,0,48.4,32.6Z"/>
+      <path class="cls-4" d="M20.7,40.5a19.6,19.6,0,0,1,7.9,1.7A19.6,19.6,0,0,0,20.7,40.5Z"/>
+      <path class="cls-4" d="M110.5,40.7a31.1,31.1,0,0,1-1.6,4.6,31.6,31.6,0,0,1-6.6,9.5,31.5,31.5,0,0,0,6.6-9.5A31.1,31.1,0,0,0,110.5,40.7Z"/>
+      <path class="cls-4" d="M110.5,40.7A31.6,31.6,0,0,0,52,18,23.7,23.7,0,0,0,20.7,40.5,19.7,19.7,0,0,0,1,60.2,19.4,19.4,0,0,0,6.3,73.8,29.7,29.7,0,0,0,16.6,80V66.2a4,4,0,0,1,4-4H63.1a4,4,0,0,1,4,4V80h40.6a19.7,19.7,0,0,0,2.8-39.3Z"/>
+      <path class="cls-3" d="M51.8,18"/>
+      <path class="cls-3" d="M110.3,40.7"/>
+      <g id="GráficoQuadrado">
+        <rect class="cls-5" x="16.6" y="62.5" width="50.5" height="50.5" rx="4" ry="4"/>
+        <path class="cls-6" d="M63.7,113H19.9a3.3,3.3,0,0,1-3.3-3.3V99.2s4.4-9.6,8.9-9.2,1.5-3.3,4.5-4.7,2.4-9,6.1-9c1.3,0,4.6,2.5,5.7,15.6.2,2.3,3.7.1,4.9,1.8s1.3,8.9,3.1,8.8,3.1-8.8,5.8-10.3,4,2.7,6,3.1,5.4-2.1,5.4-2.1v16.6A3.3,3.3,0,0,1,63.7,113Z"/>
+        <circle class="cls-7" cx="36.1" cy="76.3" r="2.1"/>
+        <circle class="cls-7" cx="50" cy="101.8" r="2.1"/>
+      </g>
+      <path class="cls-1" d="M32.9,95.1"/>
+      <g id="GraficoRedondoMenor">
+        <path class="cls-8" d="M87.8,86.3A8.4,8.4,0,0,1,95,93.9H87.8Z"/>
+        <path class="cls-8" d="M95,95.3a8.4,8.4,0,0,1-13.4,6l6-6Z"/>
+        <path class="cls-9" d="M82,99.2l4.6-4.6V88.1A6.5,6.5,0,0,0,82,99.2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

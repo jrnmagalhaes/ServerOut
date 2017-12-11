@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seu servidor caiu? A absam resolve</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://use.fontawesome.com/553196f456.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+</head>
+
+<body id="serverOut">
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 col-sm-offset-5">
+                    <h1>Cansou de rezar para
+                        <br class="quebra"> o servidor parar de cair?</h1>
+                    <img class="logo" src="assets/images/logo-absam.png" alt="">
+                    <a class="button" href="">Veja nossos planos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 centralize">
+                    <span>
+                        <b>99.</b>6%</span>
+                    <h2>Na absam,
+                        <br> garantimos 99.6% de
+                        <b>UPTIME</b>
+                    </h2>
+                </div>
+                <div class="col-sm-6 no-padding">
+                    <img src="assets/images/happy-man.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section graficos-section">
+        <div class="container">
+            <div class="row">
+                <h2>Compare e contrate</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>UnixBench Score</h3>
+                    <canvas id="ChartOne" width="400" height="400"></canvas>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Performance por Dolar</h3>
+                    <canvas id="ChartTwo" width="400" height="400"></canvas>
+                </div>
+                <div class="col-sm-4">
+                    <h3>I/O Benchmark</h3>
+                    <canvas id="ChartThree" width="400" height="400"></canvas>
+                </div>
+            </div>
+            <div class="row call-to-action">
+                <h3>Não perca tempo:</h3>
+                <a class="button" href="">Veja nossos planos</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="content-section escuro-bg baixo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 textleft textfooter">
+                    <img class="logo logo60" src="assets/images/logo_branco.png" alt="logo">
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="branco textfooter">Absam.io</h4>
+                    <ul class="list-unstyled">
+                        <li class="linkfooterspace textfooter">
+                            <a class="linkfooter" href="planos">Cloud Server</a>
+                        </li>
+                        <li class="linkfooterspace textfooter">
+                            <a class="linkfooter" href="gerenciamento">Gerenciamento</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="branco textfooter">Atendimento</h4>
+                    <ul class="list-unstyled">
+                        <li class="linkfooterspace textfooter">
+                            <a class="linkfooter" href="https://dashboard.absam.io/suporte">Central de Suporte</a>
+                        </li>
+                        <li class="linkfooterspace textfooter">
+                            <a class="linkfooter" href="contato">Contato de Vendas</a>
+                        </li>
+                        <li class="linkfooterspace textfooter">
+                            <a class="linkfooter" href="https://blog.absam.io/">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="branco textfooter">Canais</h4>
+                    <ul class="list-unstyled">
+                        <li class="linkfooterspace textfooter">
+                            <div class="col-sm-12 socialmedia">
+                                <a href="https://fb.me/absam.io" target="_blank">
+                                    <div class="socialicon textfooter">
+                                        <img src="assets/images/69407.svg" class="socialimg">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <!--
+                        <li class="linkfooterspace">
+                           <a class="linkfooter nolink">
+                            (11) 0000 - 0000</a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+
+
+                <div class="col-sm-12 footertext">
+                    Copyright 2017 © Absam Internet Data Center. All rights reserved.
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+
+    <script>
+        var ctx = document.getElementById("ChartOne").getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Absam", "Rackspace", "AWS"],
+                datasets: [{
+                    label: false,
+                    data: [1480, 1380, 760],                    
+                    backgroundColor: [
+                        'rgb(255, 255, 255)',
+                        'rgb(186,180,180)',
+                        'rgb(186,180,180)'
+                    ]
+                }]
+            },
+            options: {
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    yAxes: [{
+                        gridLines: {
+                            display: false,
+                            color: "#fff"
+                        },
+                        ticks: {
+                            beginAtZero: true,
+                            fontColor: "#fff"
+                        }
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            display: false,
+                            color: "#fff"
+                        },
+                        ticks: {
+                            fontColor: "#fff"
+                        }
+                    }]
+                }
+            }
+        });
+        var cty = document.getElementById("ChartTwo").getContext('2d');
+        var myChart = new Chart(cty, {
+            type: 'bar',
+            data: {
+                labels: ["Absam", "Rackspace", "AWS"],
+                datasets: [{
+                    label: 'absam',
+                    data: [280, 70, 30],
+                    backgroundColor: [
+                        'rgb(255, 255, 255)',
+                        'rgb(186,180,180)',
+                        'rgb(186,180,180)'
+                    ]
+                }]
+            },
+            options: {
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    yAxes: [{
+                        gridLines: {
+                            display: false,
+                            color: "#fff"
+                        },
+                        ticks: {
+                            beginAtZero: true,
+                            fontColor: "#fff"
+                        }
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            display: false,
+                            color: "#fff"
+                        },
+                        ticks: {
+                            fontColor: "#fff"
+                        }
+                    }]
+                }
+            }
+        });
+        var ctz = document.getElementById("ChartThree").getContext('2d');
+        var myChart = new Chart(ctz, {
+            type: 'bar',
+            data: {
+                labels: ["Absam", "Rackspace", "AWS"],                
+                datasets: [{
+                    label: 'absam',
+                    data: [420, 150, 60],
+                    backgroundColor: [
+                        'rgb(255, 255, 255)',
+                        'rgb(186,180,180)',
+                        'rgb(186,180,180)'
+                    ]
+                }]
+            },
+            options: {
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    yAxes: [{
+                        gridLines: {
+                            display: false,
+                            color: "#fff"
+                        },
+                        ticks: {
+                            beginAtZero: true,
+                            fontColor: "#fff"
+                        },
+                        scaleLabel: {
+                            labelString: "MB/s",
+                            display: true,
+                            fontColor: "#fff"
+                        }
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            display: false,
+                            color: "#fff"
+                        },
+                        ticks: {
+                            fontColor: "#fff"
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

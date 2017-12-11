@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.2 116.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #3d729a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #d8eaf8;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #5693ab;
+      }
+    </style>
+  </defs>
+  <title>Segundos</title>
+  <g id="Camada_2" data-name="Camada 2">
+    <g id="Camada_1-2" data-name="Camada 1">
+      <path class="cls-1" d="M43.5,22.8,41,16.9Z"/>
+      <path class="cls-1" d="M75.2,99.3l-2.4-5.9Z"/>
+      <path class="cls-1" d="M36.8,26.3,33.3,21Z"/>
+      <path class="cls-1" d="M82.9,95.2l-3.5-5.3Z"/>
+      <path class="cls-1" d="M26.3,36.8,21,33.3Z"/>
+      <path class="cls-1" d="M95.2,82.9l-5.3-3.5Z"/>
+      <path class="cls-1" d="M20.6,50.6l-6.3-1.2Z"/>
+      <path class="cls-1" d="M101.9,66.8l-6.3-1.2Z"/>
+      <path class="cls-1" d="M20.6,65.6l-6.3,1.2Z"/>
+      <path class="cls-1" d="M101.9,49.4l-6.3,1.2Z"/>
+      <path class="cls-1" d="M26.3,79.3,21,82.9Z"/>
+      <path class="cls-1" d="M95.2,33.3l-5.3,3.5Z"/>
+      <path class="cls-1" d="M36.8,89.9l-3.5,5.3Z"/>
+      <path class="cls-1" d="M82.9,21l-3.5,5.3Z"/>
+      <path class="cls-1" d="M50.6,95.6l-1.2,6.3Z"/>
+      <path class="cls-1" d="M66.8,14.3l-1.2,6.3Z"/>
+      <path class="cls-1" d="M65.6,95.6l1.2,6.3Z"/>
+      <path class="cls-1" d="M49.4,14.3l1.2,6.3Z"/>
+      <path class="cls-1" d="M22.8,43.5,16.9,41Z"/>
+      <path class="cls-1" d="M99.3,75.2l-5.9-2.4Z"/>
+      <path class="cls-1" d="M22.8,72.7l-5.9,2.4Z"/>
+      <path class="cls-1" d="M99.3,41l-5.9,2.4Z"/>
+      <path class="cls-1" d="M43.5,93.4,41,99.3Z"/>
+      <path class="cls-1" d="M75.2,16.9l-2.4,5.9Z"/>
+      <path class="cls-1" d="M58.1,26.2v0Z"/>
+      <path class="cls-1" d="M45.9,87.5,55.7,64Z"/>
+      <path class="cls-1" d="M58.1,102.7v0Z"/>
+      <path class="cls-1" d="M26.2,58.1h0Z"/>
+      <path class="cls-1" d="M102.7,58.1h0Z"/>
+      <path class="cls-1" d="M35.6,35.6l-9-9Z"/>
+      <path class="cls-1" d="M89.6,89.6l-9-9Z"/>
+      <path class="cls-1" d="M35.6,80.6l-9,9Z"/>
+      <path class="cls-1" d="M89.6,26.5l-9,9Z"/>
+      <circle class="cls-2" cx="58.1" cy="58.1" r="6.4"/>
+      <circle class="cls-1" cx="58.1" cy="58.1" r="2.4"/>
+      <path class="cls-2" d="M80.4,54.9H63.6a6.2,6.2,0,0,1,0,6.4H80.4a3.2,3.2,0,0,0,0-6.4Z"/>
+      <path class="cls-2" d="M58.1,51.7h.8L50.1,30.4a3.2,3.2,0,0,0-5.9,2.4L53,54.2A6.4,6.4,0,0,1,58.1,51.7Z"/>
+      <path class="cls-3" d="M58.1,7.1a51,51,0,1,1-51,51A51,51,0,0,1,58.1,7.1Zm0-6.1a57.1,57.1,0,1,0,57.1,57.1A57.1,57.1,0,0,0,58.1,1Z"/>
+    </g>
+  </g>
+</svg>

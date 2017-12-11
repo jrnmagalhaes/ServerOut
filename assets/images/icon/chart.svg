@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1744 2431 84 84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #3d729a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #5693ab;
+      }
+
+      .cls-3 {
+        fill: #d8eaf8;
+      }
+    </style>
+  </defs>
+  <g id="Chart" transform="translate(1743.7 2430.5)">
+    <path id="Path_181" data-name="Path 181" class="cls-1" d="M190.8,22.011h0A20.5,20.5,0,0,1,205.3,57l14.5,14.5A41,41,0,0,0,190.8,1.5Z" transform="translate(-148.5)"/>
+    <path id="Path_182" data-name="Path 182" class="cls-2" d="M71.3,258a20.528,20.528,0,0,0,28.992,0l14.5,14.5a41,41,0,0,1-57.984,0Z" transform="translate(-43.492 -201.004)"/>
+    <path id="Path_183" data-name="Path 183" class="cls-3" d="M42.3,22.011A20.494,20.494,0,0,0,21.789,42.5H1.3a40.988,40.988,0,0,1,41-41Z"/>
+    <path id="Path_184" data-name="Path 184" class="cls-1" d="M27.8,205.5A20.367,20.367,0,0,1,21.789,191H1.3a40.88,40.88,0,0,0,12.008,28.992Z" transform="translate(0 -148.5)"/>
+  </g>
+</svg>
